@@ -1,12 +1,21 @@
-# Sticky Notes React
+# StickyNotes
 
-Drag & Drop sticky notes App built with React JS and Appwite.
+Minimal sticky-note style note manager.  
+Pure web — no install — open browser, type, persist. Built a sticky-notes system with real-time Appwrite backend.
+dynamic color coded notes, update / delete flows, persistent storage, react state is clean + predictable.
+solved the “quick capture without turning into a project manager app” problem.
 
-This project is part of a video tutorial which will be posted on the [Free Code Camp](https://www.youtube.com/@freecodecamp) youtube channel.
+---
+## Screenshots
+![image](/src/images/image.png)
 
-Link will be provided here 👉 (LINK) once the video is posted.
+## 🛠️ Tech Stack
 
-<img src="demo.gif"/>
+### Backend - appwrite 
+
+### Frontend - React – UI library  
+
+---
 
 ### Features
 
@@ -16,13 +25,14 @@ Link will be provided here 👉 (LINK) once the video is posted.
 -   Autogrow note size as data is input
 -   Autosave notes as you add data.
 
-### Setup instructions
+---
 
--   Clone repo: `git clone <REPO URL>`
--   Install dependencies and run server: `cd reponame` + `npm i` + `npm run dev`
--   Setup Appwrite backend with database (See database details below)
--   Create `.env` file (use `.env.example` as a reference) and update appwrite credentials
+## How To Run Locally
 
-### Appwrite backend
+```bash
+git clone https://github.com/Av75sh/StickyNotes.git
+cd StickyNotes
+npm install
 
-(Comming soon....)
+npm i appwrite
+```
